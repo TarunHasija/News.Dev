@@ -16,7 +16,6 @@ class _HomePageState extends State<HomePage> {
   late Future<List> news;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     news = fetchNews();
   }
