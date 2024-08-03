@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:techdev/pages/splashscreen.dart';
 import './pages/pages.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         );
 
       },
-      child: HomePage(),
+      child: SplashScreen(),
     );
   }
 }

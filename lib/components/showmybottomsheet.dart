@@ -58,7 +58,7 @@ class MyBottomSheet extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(10),
             child: modifiedText(
-                text: description, size: 16.sp, color: AppColors.white),
+                text: description, size: 14.sp, color: AppColors.white),
           ),
           Container(
             padding: EdgeInsets.all(10),
@@ -92,7 +92,7 @@ class BottomSheetImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 300.h,
       child: Stack(
         children: [
@@ -110,7 +110,7 @@ class BottomSheetImage extends StatelessWidget {
               child: Container(
             padding: EdgeInsets.all(10),
             width: 300.w,
-            child: boldText(text: title, size: 18.sp, color: AppColors.white),
+            child: boldText(text: title, size: 16.sp, color: AppColors.white),
           ))
         ],
       ),

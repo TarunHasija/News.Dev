@@ -56,9 +56,10 @@ class _HomePageState extends State<HomePage> {
                           });
                     } else {
                       return const Padding(
-                        padding: EdgeInsets.symmetric(horizontal: 70),
+                        padding: EdgeInsets.symmetric(horizontal: 100),
                         child: Center(
                           child: LinearProgressIndicator(
+                            borderRadius: BorderRadius.all(Radius.circular(10)),
                             color: Colors.white,
                           ),
                         ),
