@@ -1,16 +1,16 @@
-# techdev
+# Tech.Dev
 
-A new Flutter project.
+NewsApp
+A Flutter application that fetches and displays news articles from NewsAPI.org. The app features a search box to find news articles based on user input.
 
-## Getting Started
+Features
+- Display latest news articles
+- Search news articles by keyword
+- View article details
+- Responsive design using flutter_screenutils package
+Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Getting Started
+Prerequisites
+- Flutter 2.0 or higher
+- An API key from NewsAPI.org
