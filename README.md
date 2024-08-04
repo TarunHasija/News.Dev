@@ -1,4 +1,4 @@
-# Tech.Dev
+# Tech.Dev📰
 
 NewsApp
 A Flutter application that fetches and displays news articles from NewsAPI.org. The app features a search box to find news articles based on user input.
